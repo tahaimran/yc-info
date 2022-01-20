@@ -16,3 +16,8 @@ Button:hover{
 h3{
   font-family: 'Outfit', sans-serif !important;
 }
+@media only screen and  (max-width : 450px) {
+  h3{
+    font-size: 35px !important;
+  }
+}
