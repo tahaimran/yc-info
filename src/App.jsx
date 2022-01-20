@@ -8,13 +8,16 @@ function App() {
   return (
     <>
       <Grid sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
-
-        <img src={Logo} width={70} alt="" />
-        <Typography variant="h3" sx={{ ml: 3, color: "#fff" }}>Youth Club Weekly Classes</Typography>
+        <Grid item>
+          <img src={Logo} width={80} height='auto' alt="" />
+        </Grid>
+        <Grid item> 
+          <Typography variant="h3" sx={{ ml: 3, color: "#fff" }}>Youth Club Weekly Classes</Typography>
+        </Grid>
       </Grid>
 
 
-      <Grid container sx={{ justifyContent: 'space-evenly', mt:2,mb:5 }} >
+      <Grid container sx={{ justifyContent: 'space-evenly', mt: 2, mb: 5 }} >
         <Single src='https://youthclub.pk/wp-content/uploads/2022/01/the-key.jpg'
           title="The Key"
           speaker="Speaker: Khurram Alvi"

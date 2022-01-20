@@ -7,7 +7,7 @@ import './App.css'
 function Single(props) {
     return (
         <Grid item sx={{ mt: 5 }} >
-            <Typography sx={{ fontWeight: 'semiBold' }} variant="h4">
+            <Typography sx={{ fontWeight: 'semiBold', textAlign:'center' , mb:  1 }} variant="h4">
                 {props.title}
             </Typography>
             <img width={320}  src={props.src} alt="" />

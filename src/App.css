@@ -13,3 +13,6 @@ Button:hover{
   transform: scale(1.07);
   transition-duration: 0.7s;
 }
+h3{
+  font-family: 'Outfit', sans-serif !important;
+}
