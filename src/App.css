@@ -3,6 +3,13 @@
  
 }
 body{
-  background-image: linear-gradient(to right, #f58e33 , #101010);
+  background-image: linear-gradient(to right, #F97200 , #191711);
   color: white;
+}
+p{
+  font-size: 40px;
+}
+Button:hover{
+  transform: scale(1.07);
+  transition-duration: 0.7s;
 }
