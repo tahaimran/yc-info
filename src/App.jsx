@@ -1,6 +1,7 @@
 import Single from "./Single";
 import { Grid, Typography } from '@mui/material'
 import Greatest from './images/greatest.jpg'
+import Desire from './images/desire.jpg'
 import Logo from './images/logo.png'
 import './App.css'
 function App() {
@@ -18,11 +19,11 @@ function App() {
 
 
       <Grid container sx={{ justifyContent: 'space-evenly', mt: 2, mb: 5 }} >
-        <Single src='https://youthclub.pk/wp-content/uploads/2022/01/the-key.jpg'
-          title="The Key"
+        <Single src={Desire}
+          title="Diseases of the Heart"
           speaker="Speaker: Khurram Alvi"
           address='House # 93-B, St. 66, Sector F-11/4, Islamabad'
-          timings='Every Tuesday 8:00-9:00 PM'
+          timings='Every Tuesday 8:00PM'
           audience='Audience: Males only'
           href='https://goo.gl/maps/SHjSyEh9wnDRHU1Q8'
         />
